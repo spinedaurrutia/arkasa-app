@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arkasa</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">	
+		
+		<section class="panel panel-left panel-cover">
+		
+			<div class="list media-list ">
+				<ul>
+					<li>
+						<a href="/index/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">home</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">Home</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/proyectos/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">design_services</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">Proyectos</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/equipo/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">info</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">Equipo</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/ideas/" class="item-link item-content panel-close">
+							<div class="item-media">
+								<i class="material-icons">lightbulb</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">Ideas</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/contacto/" class="item-link item-content">
+							<div class="item-media">
+								<i class="material-icons">forum</i>
+							</div>
+							<div class="item-inner">
+								<div class="item-title">Contactos</div>
+							</div>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		
+		</section>
+		
+		
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+				<nav class="toolbar toolbar-bottom tabbar tabbar-labels">
+				<div class="toolbar-inner">
+					<a href="/index/" class="tab-link">
+						<span class="material-icons">home</span>
+						<span class="tabbar-label">Home</span>
+					</a>
+					<a href="/ideas/" class="tab-link">
+						<span class="material-icons">lightbulb</span>
+						<span class="tabbar-label">Ideas</span>
+					</a>
+					<a href="/equipo/" class="tab-link">
+						<span class="material-icons">groups</span>
+						<span class="tabbar-label">Nosotros</span>
+					</a>
+					<a href="/contacto/" class="tab-link">
+						<span class="material-icons">forum</span>
+						<span class="tabbar-label">Contacto</span>
+					</a>
+					<a href="#" class="tab-link panel-open" data-panel="left">
+						<span class="material-icons">menu</span>
+
+					</a>
+				</div>
+			</nav>
+
+
+			  <section class="page-content">
+				  
+				  
+				 
+				  <div class="" id="block-categories">
+					  <img src="img/arkasa.png" alt="" class="img-fluid">
+					  <div>
+					  <p>Nuestro diseño se especializa en crear soluciones visuales innovadoras y atractivas, una identidad única y cautivadora.</p>
+			    </div>
+				  </div>
+				  
+				  
+				   <div class="block" id="block-botones">
+				  
+					  <a href="/equipo/" class="button button-fill button-outline">Aprende más sobre nosotros</a>
+					  
+				  </div>
+				  
+				  <div class="block block-strong" id="block-carrusel">
+				   
+					 <div class="swiper-container swiper-init" data-pagination='{"el": ".swiper-pagination"}'>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="card"> 
+								  <div class="card-content">
+									  <div class="row">
+										  <img src="img/Group 12.png" alt="carrusel1">
+									  </div>
+									  <div class="row"> 
+									  </div>
+								  </div>
+							  </div>
+							
+							</div><!--swiper-slide-->
+							<div class="swiper-slide">
+								<div class="card"> 
+								  <div class="card-content">
+									  <div class="row">
+										  <img src="img/Group 10.png" alt="carrusel2">
+									  </div>
+									  <div class="row">
+									  </div>
+								  </div>
+							  </div>
+							
+							</div>
+							<div class="swiper-slide">
+								<div class="card"> 
+								  <div class="card-content">
+									  <div class="row">
+										  <img src="img/Group 11.png" alt="carrusel1">
+									  </div>
+									  <div class="row">
+									  </div>
+								  </div>
+							  </div>
+							
+							</div>
+						</div> <!--swiper-wrapper-->
+					  <div class="swiper-pagination"></div>
+					</div><!--swiper-container--> 
+				  </div>
+				  
+				  
+				  
+				  <div class="block">
+				  
+					  <a href="/proyectos/" class="button button-fill button-outline">Descubre más proyectos</a>
+					  
+				  </div>
+				  
+				  <div class="block" id="count-down">
+					  
+					  <div class="row numeros">
+					  	<article class="col-30">2</article>
+						<article class="col-30">6</article>
+						<article class="col-30">10</article>
+					  </div>
+					   <div class="row datos">
+					  	<article class="col-30">años</article>
+						<article class="col-30">proyectos</article>
+						<article class="col-30">clientes</article>
+					  </div>
+				  
+				  </div>
+				  
+				  
+		  	<section class="page-content1" id="page-ideas1">
+
+			<div class="block">
+		
+			<div class="row">
+			
+				<article class="col-50">
+				
+					<div class="card">
+			
+						<div class="card-header">
+							<img src="img/arkasa 2.png" alt="" class="img-fluid">
+						</div>
+						
+						<div class="card-content">
+							<a href="/proyectos/" class="button button-fill button-outline">Proyectos</a>
+							
+						</div>
+
+					</div>
+					
+				</article>
+				
+				<article class="col-50">
+					<div class="card">
+			
+						<div class="card-header">
+							<img src="img/equipo 2.png" alt="" class="img-fluid">
+						</div>
+						
+						<div class="card-content">
+							<a href="/equipo/" class="button button-fill button-outline">Equipo</a>
+						</div>
+
+					</div>
+				</article>
+			
+			</div>
+			
+			<div class="row">
+			
+				<article class="col-50">
+				
+					<div class="card">
+			
+						<div class="card-header">
+							<img src="img/ideas 23.png" alt="" class="img-fluid">
+						</div>
+						
+						<div class="card-content">
+							<a href="/ideas/" class="button button-fill button-outline">Ideas</a>
+						</div>
+
+					</div>
+					
+				</article>
+				
+				<article class="col-50">
+					<div class="card">
+			
+						<div class="card-header">
+							<img src="img/quienes somos 23.png" alt="" class="img-fluid">
+						</div>
+						
+						<div class="card-content">
+							<a href="/Contacto/" class="button button-fill button-outline">Contáctanos</a>
+						</div>
+
+					</div>
+				</article>
+			
+			</div>
+		
+						
+						
+		</div>
+		
+		
+				</section>
+				  
+			  </section> <!--/page-content -->
+
+			</section> 
+			<!--/page -->
+			
+		</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
